@@ -81,5 +81,6 @@ Total: 23 | Sucessos: 22 | Falhas: 1
 ❌ ERROS:
    -> 000000050820 | Erro: Element not found...
 ############################################################
+
 📝 Autor
 Sergio Lopes
