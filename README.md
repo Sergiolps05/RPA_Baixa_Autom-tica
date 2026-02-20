@@ -23,24 +23,6 @@ Playwright (Automação de Browser)
 
 python-dotenv (Gestão de variáveis de ambiente)
 
-⚙️ Configuração e Instalação
-Clone o repositório:
-
-Bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
-Instale as dependências:
-
-Bash
-pip install playwright python-dotenv
-playwright install chromium
-Configuração de Credenciais: Crie um arquivo .env na raiz do projeto para armazenar suas credenciais de forma segura (não suba este arquivo para o Git):
-
-Snippet de código
-usuario=SEU_USUARIO_PROTHEUS
-senha=SUA_SENHA_PROTHEUS
-📋 Como Usar
-Abra o script principal (ex: main.py).
 
 Insira os números dos boletos que deseja baixar na variável raw_titulos:
 
@@ -59,7 +41,7 @@ python main.py
 🛡️ Lógica de Segurança
 O script possui travas de segurança e tratamentos de exceção:
 
-Modo Produção: O script atual está configurado para SALVAR as alterações.
+Modo Produção: O script atual está configurado para salvar as alterações.
 
 Tratamento de Erros: Caso ocorra erro em um título específico, o robô fecha as janelas de erro, registra a falha no relatório e pula para o próximo título, sem interromper todo o lote.
 
