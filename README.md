@@ -1,9 +1,9 @@
-🤖 Automação Protheus - Baixa de Títulos (RPA)
+ Automação Protheus - Baixa de Títulos (RPA)
 Este projeto é um script de automação (RPA) desenvolvido em Python utilizando a biblioteca Playwright. O objetivo é automatizar o processo repetitivo de baixa de títulos no módulo Financeiro (Contas a Receber) do ERP TOTVS Protheus Web.
 
 O robô realiza login, navega até a rotina, aplica filtros de forma resiliente, preenche os dados da baixa e gera um relatório final de execução.
 
-🚀 Funcionalidades
+ Funcionalidades
 Login Automático: Acesso seguro ao ambiente Protheus Web.
 
 Troca de Contexto: Seleção automática de Módulo e alteração da Data Base do sistema.
@@ -16,7 +16,7 @@ Seleção de Motivo: Navegação automatizada nos comboboxes de motivo da baixa.
 
 Relatório Final: Exibe no terminal um resumo detalhado dos títulos baixados com sucesso e dos erros encontrados.
 
-🛠️ Tecnologias Utilizadas
+ Tecnologias Utilizadas
 Python 3.x
 
 Playwright (Automação de Browser)
@@ -38,14 +38,14 @@ Execute o script:
 
 Bash
 python main.py
-🛡️ Lógica de Segurança
+Lógica de Segurança
 O script possui travas de segurança e tratamentos de exceção:
 
 Modo Produção: O script atual está configurado para salvar as alterações.
 
 Tratamento de Erros: Caso ocorra erro em um título específico, o robô fecha as janelas de erro, registra a falha no relatório e pula para o próximo título, sem interromper todo o lote.
 
-📊 Exemplo de Saída (Relatório)
+Exemplo de Saída (Relatório)
 Ao final da execução, o console exibirá:
 
 Plaintext
